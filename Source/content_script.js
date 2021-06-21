@@ -269,8 +269,8 @@ function handleText(textNode)
   v = v.replace(/🐊/g, "\u{1318C}"); // 𓆌
   v = v.replace(/🐸/g, "\u{1318F}"); // 𓆏
   v = v.replace(/🐉/g, "\u{13191}"); // 𓆑
-  v = v.replace(/🐲/g, "\u{131E9}"); // 𓋐
-  v = v.replace(/🐍/g, "\u{132D0}"); // 𓆙
+  v = v.replace(/🐲/g, "\u{132D0}"); // 𓋐
+  v = v.replace(/🐍/g, "\u{13199}"); // 𓆙
 
   // K. Fish and parts of fish
   v = v.replace(/🐟/g, "\u{1319D}"); // 𓆝
