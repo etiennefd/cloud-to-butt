@@ -1,4 +1,4 @@
-emoji-to-hieroglyphs
+Emoji to Hieroglyphs
 =============
 
 Chrome extension that replaces occurrences of more than 300 emoji with an Egyptian hieroglyph.
