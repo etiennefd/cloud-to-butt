@@ -18,6 +18,9 @@ Some examples:
 Installation
 ------------
 
+The extension has been submitted to the Chrome web store and is awaiting review, which apparently might take a while even though it's just a small silly extension. I suppose they're worried about something that changes text content. If you don't want to wait, you can install it directly.
+
 In Chrome, choose More tools > Extensions. Drag emoji_to_hieroglyphs.crx into the page that appears.
 
-The extension has been submitted to the Chrome store and is awaiting review, but you can still install it with the above method.
+If that doesn't work because of something something security, you can download the Source directory, and load it by clicking the Load Unpackaged Extension button in the Extensions screen.
+
