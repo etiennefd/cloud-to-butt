@@ -168,6 +168,7 @@ function handleText(textNode)
   v = v.replace(/🗣️/g, "\u{13076}"); // 𓁶
   v = v.replace(/👄/g, "\u{1308F}"); // 𓂏
   v = v.replace(/👁️‍🗨️/g, "\u{13080}"); // 𓂀
+  v = v.replace(/🧿/g, "\u{13080}"); // 𓂀
   v = v.replace(/👁️/g, "\u{13079}"); // 𓁹
   v = v.replace(/👀/g, "\u{13079}\u{13079}"); // 𓁹𓁹
   v = v.replace(/👓/g, "\u{1307D}\u{1307D}"); // 𓁽𓁽
@@ -191,6 +192,7 @@ function handleText(textNode)
   v = handleSkinTonesAndGender(v, "👈", "\u{130B7}"); // 𓂷
   v = handleSkinTonesAndGender(v, "🤳", "\u{130A5}"); // 𓂥
   v = handleSkinTonesAndGender(v, "🤚", "\u{130A7}"); // 𓂧
+  v = handleSkinTonesAndGender(v, "💪", "\u{130A2}"); // 𓂢
 
   // E. Mammals
   v = v.replace(/🐂/g, "\u{130D2}"); // 𓃒
@@ -359,6 +361,7 @@ function handleText(textNode)
   v = v.replace(/🚪/g, "\u{13280}"); // 𓊀
   v = v.replace(/💣/g, "\u{13298}"); // 𓊘
   v = v.replace(/🪦/g, "\u{13278}"); // 𓉸
+  v = v.replace(/🚧/g, "\u{13290}"); // 𓊐
 
   // P. Ships and parts of ships
   v = v.replace(/🛶/g, "\u{1329B}"); // 𓊛
@@ -414,6 +417,8 @@ function handleText(textNode)
   v = v.replace(/🪤/g, "\u{13327}"); // 𓌧
   v = v.replace(/🔪/g, "\u{1332A}"); // 𓌪
   v = v.replace(/🛡️/g, "\u{13332}"); // 𓌲
+  v = v.replace(/🏒/g, "\u{13319}"); // 𓌙
+  v = v.replace(/🏑/g, "\u{132FE}"); // 𓋾
   
   // U. Agriculture, crafts, and professions
   v = v.replace(/🛷/g, "\u{13343}"); // 𓍃
@@ -468,7 +473,9 @@ function handleText(textNode)
   
   // Z. Strokes, signs derived from Hieratic, geometrical figures
   v = v.replace(/🌀/g, "\u{133F2}"); // 𓏲
-  v = v.replace(/🥢/g, "\u{133F5}"); // 𓏵
+  v = v.replace(/✖️/g, "\u{133F4}"); // 𓏴
+  v = v.replace(/❌/g, "\u{133F4}"); // 𓏴
+  v = v.replace(/🥢/g, "\u{133ED}"); // 𓏭
   
   // Aa. Unclassified
   v = v.replace(/🍜/g, "\u{13410}"); // 𓐐
