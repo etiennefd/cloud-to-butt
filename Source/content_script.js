@@ -169,7 +169,7 @@ function handleText(textNode)
   v = v.replace(/👄/g, "\u{1308F}"); // 𓂏
   v = v.replace(/👁️‍🗨️/g, "\u{13080}"); // 𓂀
   v = v.replace(/🧿/g, "\u{13080}"); // 𓂀
-  v = v.replace(/👁️/g, "\u{13079}"); // 𓁹
+  v = v.replace(/👁/g, "\u{13079}"); // 𓁹
   v = v.replace(/👀/g, "\u{13079}\u{13079}"); // 𓁹𓁹
   v = v.replace(/👓/g, "\u{1307D}\u{1307D}"); // 𓁽𓁽
   v = v.replace(/🥽/g, "\u{1307D}\u{1307D}"); // 𓁽𓁽
