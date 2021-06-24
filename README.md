@@ -20,4 +20,4 @@ Installation
 
 In Chrome, choose More tools > Extensions. Drag emoji_to_hieroglyphs.crx into the page that appears.
 
-
+The extension has been submitted to the Chrome store and is awaiting review, but you can still install it with the above method.
